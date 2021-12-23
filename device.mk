@@ -195,6 +195,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PACKAGES += \
     fstab.qcom \
     init.picasso.rc \
+    init.mi.btmac.sh \
     init.mi.usb.sh \
     init.qti.dcvs.sh \
     init.target.rc \
