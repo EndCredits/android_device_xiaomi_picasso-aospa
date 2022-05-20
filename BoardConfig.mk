@@ -81,6 +81,8 @@ BOARD_KERNEL_PAGESIZE := 4096
 
 KERNEL_DEFCONFIG := vendor/picasso_user_defconfig
 
+KERNEL_LLVM_SUPPORT := true
+
 # Metadata
 BOARD_USES_METADATA_PARTITION := true
 
