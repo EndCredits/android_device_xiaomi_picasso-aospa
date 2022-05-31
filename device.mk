@@ -220,6 +220,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # Overlays
 PRODUCT_PACKAGES += \
     AOSPAPicassoFrameworksOverlay \
+    AOSPAPicassoSystemUIOverlay \
     FrameworksResTarget \
     PicassoFrameworksOverlay \
     PicassoSettingsOverlay \
