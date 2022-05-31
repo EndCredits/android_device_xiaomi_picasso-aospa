@@ -275,6 +275,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.soc.manufacturer=QTI \
     ro.soc.model=SM7250
 
+# Subsystem silent restart
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.ssr.restart_level=ALL_ENABLE
+
 # Vendor Service Manager
 PRODUCT_PACKAGES += \
     vndservicemanager
