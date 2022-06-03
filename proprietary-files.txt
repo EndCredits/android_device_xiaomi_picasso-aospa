@@ -30,7 +30,7 @@ vendor/lib64/libsysmon_cdsp_skel.so|3ae87b24980f983ba83fd563134328bb0f6f62e8
 vendor/lib64/vendor.qti.hardware.dsp@1.0.so|e92a9bf499d31770f73cc35e56c6a9d77285ba7c
 
 # Adreno
--vendor/app/com.qualcomm.qti.gpudrivers.lito.api30/com.qualcomm.qti.gpudrivers.lito.api30.apk
+vendor/app/com.qualcomm.qti.gpudrivers.lito.api30/com.qualcomm.qti.gpudrivers.lito.api30.apk
 vendor/firmware/a620_zap.b00
 vendor/firmware/a620_zap.b01
 vendor/firmware/a620_zap.b02
@@ -537,9 +537,9 @@ vendor/lib64/camera/com.qti.tuned.picasso_48m_sunny_rear_depth_gc02m1_mono.bin
 vendor/lib64/camera/com.qti.tuned.picasso_sunny_wide_ov48b2q.bin
 
 # CNE - LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0
--vendor/app/CACertService/CACertService.apk|b6bd2019de0087b4c175da1d534df0be8cc97c5b
--vendor/app/CneApp/CneApp.apk|2839a8643422182451935867c83454dc7503c22b
--vendor/app/IWlanService/IWlanService.apk|416379b01261da80d4c497e5fb9df5e794a1d0f6
+vendor/app/CACertService/CACertService.apk|b6bd2019de0087b4c175da1d534df0be8cc97c5b
+vendor/app/CneApp/CneApp.apk|2839a8643422182451935867c83454dc7503c22b
+vendor/app/IWlanService/IWlanService.apk|416379b01261da80d4c497e5fb9df5e794a1d0f6
 vendor/bin/cnd|c8fdd53b751dbfdcd6f78895c71348a353e2263d
 vendor/bin/mutualex|0544fee9ace51fc7a071e7fe6d41159d83f3c26f
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml|578f3f8f56059bfdbef926bcc68d01c15e06951f
@@ -619,7 +619,7 @@ vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc|4ede025
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|2163df1cf52ef304f924bcc833947604036f4217
 
 # Connection Security - LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0
--vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk|da2d4eb23760b6c11e1f60e2953f9073577875f6
+vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk|da2d4eb23760b6c11e1f60e2953f9073577875f6
 vendor/bin/ssgqmigd|5769f2aef8fdf48f55b01e3d7d3d1aecb860d7e1
 vendor/bin/ssgtzd|7c541d530b5911765eedc9660f0bfeed0ea700c3
 vendor/etc/init/ssgtzd.rc|140086da548acd74420c8f494c3351b4dedc1c80
@@ -753,16 +753,16 @@ vendor/lib/rfsa/adsp/libdspCV_skel.so|88d2805c1e4af680dddc65f1ec6bccb339ef01dc
 vendor/lib/rfsa/adsp/libfastcvadsp.so|0fa5f74f8f1d26c4de0d8dcc6bc5fae25edc07df
 vendor/lib/rfsa/adsp/libfastcvdsp_skel.so|149ec617a575c3fe084e0589b77b897b12c5fe9a
 vendor/lib/libfastcvdsp_stub.so|7f27cee24281bc9bf4f08c6100cc66bd650d8efb
--vendor/lib/libfastcvopt.so|eb6e1052f12b45f2f651f1437e6072459648f2f3
+vendor/lib/libfastcvopt.so|eb6e1052f12b45f2f651f1437e6072459648f2f3
 vendor/lib64/libfastcvdsp_stub.so|9813b36faa8029bdb358126c2996207fc7704d32
--vendor/lib64/libfastcvopt.so|0796b9092eb285d7689a8e6c4478a88a1d7e6e87
+vendor/lib64/libfastcvopt.so|0796b9092eb285d7689a8e6c4478a88a1d7e6e87
 
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
 vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
 vendor/etc/permissions/com.fingerprints.extension.xml
--vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml
--vendor/framework/com.fingerprints.extension.jar
+vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml
+vendor/framework/com.fingerprints.extension.jar
 vendor/lib/hw/fingerprint.fpc.so
 vendor/lib/hw/fingerprint.goodix.so
 vendor/lib/libgf_ca.so
@@ -786,7 +786,7 @@ vendor/bin/slim_daemon|887c7aa2fd377ea87e195f5e80dd4622e40451ca
 vendor/bin/xtra-daemon|84935a394ddc5210ba1b6d0255185ad05aae85ee
 vendor/bin/xtwifi-client|9171342a09a37604f5b4b61975b420eeeed64615
 vendor/bin/xtwifi-inet-agent|4aabf2e71422b105a76a3064175b2399cb89fc4e
--vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
+vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
 vendor/etc/apdr.conf|52c9b4265e55c87ddf07c9b60817b3c09420712a
 vendor/etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
 vendor/etc/izat.conf|c60fabc264a477e23a36018419271bab2de0a0f6
@@ -933,8 +933,8 @@ vendor/lib64/libopenvx.so|8b4d13c2e83c27887de0aeede294ee380438b314
 # Neural Networks - LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0
 vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti|4e82f7fc9be97e772e6933ae9e92b1e4dc0eb239
 vendor/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc|4b7f2c5f914f3eef38f19936c0a06efc09b5b28c
--vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml|ac07e83ba7c2a87a2f216f04ec84df4539ea8507
--vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml|57e182a296097870a4c4ed1579c67da20c2b69de
+vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml|ac07e83ba7c2a87a2f216f04ec84df4539ea8507
+vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml|57e182a296097870a4c4ed1579c67da20c2b69de
 vendor/lib/rfsa/adsp/libhexagon_nn_skel.so|baf2152894bf05c0c14581e3def9b4d1abf9e6d1
 vendor/lib64/libhexagon_nn_stub.so|dabb2252d52bfde40d7c1e41487b2912f6d013f3
 vendor/lib64/unnhal-acc-adreno.so|716f5ad06387c2271083227674da3f9d5a1fc482
@@ -964,7 +964,7 @@ vendor/lib64/vendor.qti.hardware.qccvndhal@1.0-halimpl.so|0f98bfd30c23b561caf8a4
 vendor/lib64/vendor.qti.hardware.qccvndhal@1.0.so|154868a579a9d30c86fe5f8aaaa254aaab07c58d
 
 # QDMA - LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0
--vendor/app/QCC-TR-UI/QCC-TR-UI.apk|365c42adc63a5d47ac36eb04d606d986aba8182b
+vendor/app/QCC-TR-UI/QCC-TR-UI.apk|365c42adc63a5d47ac36eb04d606d986aba8182b
 vendor/bin/qcc-trd|1f908f273dcb2a76738e76e2e3836a7e03284b0f
 vendor/etc/init/init.qdmastats.rc|837b16bf9600715345fc65d5d6c98ce97f2d4583
 vendor/lib64/libqdma_file_agent.so|9c9a03ea1507a247e9d736b4073781d893f865f4
@@ -1371,7 +1371,7 @@ vendor/etc/init/tloc_daemon.rc|9dd38e92847bc34f8a3228f4cd81ef14b6e89785
 # Thermal (limits-hal) - LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0
 vendor/bin/hw/vendor.qti.hardware.limits@1.0-service|0b8947b9f6ddc6953a324ea43e33bcc8f7edab26
 vendor/etc/init/vendor.qti.hardware.limits@1.0-service.rc|77c989d8d59b99716b900e96d94a4aa9bcab6aa6
--vendor/etc/vintf/manifest/vendor.qti.hardware.limits@1.0-service.xml|6109f13748cb74b7d042e2604a9883a1b071e810
+vendor/etc/vintf/manifest/vendor.qti.hardware.limits@1.0-service.xml|6109f13748cb74b7d042e2604a9883a1b071e810
 vendor/lib64/vendor.qti.hardware.limits@1.0.so|8fef74ce2bef2e064e0ccef4a302c995cdfca7c8
 
 # Thermal
@@ -1389,11 +1389,11 @@ vendor/etc/thermal-normal.conf
 vendor/etc/thermal-phone.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermald-devices.conf
--vendor/lib/libthermalclient.so
--vendor/lib64/libthermalclient.so
+vendor/lib/libthermalclient.so
+vendor/lib64/libthermalclient.so
 
 # Time - LA.UM.9.12.r1-14100.02-SMxx50.QSSI12.0
--vendor/app/TimeService/TimeService.apk|1a5f39aa2969feee50ff81ec870b5e2669ae515e
+vendor/app/TimeService/TimeService.apk|1a5f39aa2969feee50ff81ec870b5e2669ae515e
 vendor/bin/time_daemon|5ac6b1af3c41eecad1e522df8e272db5fab86523
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|17547993adc4fb9cb1cdc1abbd765f4ef9a05f09
@@ -1428,7 +1428,7 @@ vendor/lib64/vendor.qti.hardware.vpp@1.3.so|f41500bd64308e0df2e0cb2cfc932b69bae2
 # Widevine
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine
 vendor/etc/init/android.hardware.drm@1.3-service.widevine.rc
--vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
 vendor/lib64/mediadrm/libwvdrmengine.so
 vendor/lib64/libwvhidl.so
 
