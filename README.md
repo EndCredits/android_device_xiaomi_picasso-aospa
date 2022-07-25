@@ -1,6 +1,8 @@
 
- Device configuration for Redmi K30 5G
+ AOSPA Device configuration for Redmi K30 5G
  =========================================
+
+ Thanks to PA team for their great work.
 
  The Redmi K30 5G (codenamed _"picasso"_) is a smartphone from Xiaomi.
 
@@ -22,3 +24,17 @@
 
  ![Redmi K30 5G](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-k30-5g-2.jpg "Redmi K30 5G")
  
+ ## Credits
+
+ - [AOSP](https://android.googlesource.com/)
+ - [AOSPA](https://github.com/AOSPA)
+ - [AOSPA - Alioth](https://github.com/AOSPA/android_device_xiaomi_alioth)
+ - [CodeLinaro](https://git.codelinaro.org/clo/la)
+ - [LineageOS](https://github.com/LineageOS)
+
+## Thanks to
+ - @gotenksIN
+ - @UtsavBalar1231
+ - @LynnrinChan
+ - @asuka-mio
+
