@@ -199,6 +199,7 @@ PRODUCT_SOONG_NAMESPACES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResTarget \
+    PicassoFrameworksOverlay \
     WifiResTarget
 
 # Partitions
