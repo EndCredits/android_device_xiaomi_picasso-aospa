@@ -208,6 +208,7 @@ PRODUCT_PACKAGES += \
     AOSPAPicassoFrameworksOverlay \
     FrameworksResTarget \
     PicassoFrameworksOverlay \
+    PicassoSystemUIOverlay \
     WifiResTarget
 
 # Partitions
