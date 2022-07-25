@@ -12,12 +12,41 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+# Adreno
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.gfx.driver.1=com.qualcomm.qti.gpudrivers.lito.api30
+
 # APEX
 $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Attestation
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.device_id_attestation.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.device_id_attestation.xml
+
+# Audio
+PRODUCT_PROPERTY_OVERRIDES += \
+    aaudio.mmap_policy=1 \
+    persist.vendor.audio.misound.disable=true \
+    persist.vendor.audio.ring.filter.mask=0 \
+    persist.vendor.audio.hifi=false \
+    ro.config.vc_call_vol_steps=11 \
+    ro.vendor.audio.gain.support=true \
+    ro.vendor.audio.hifi=true \
+    ro.vendor.audio.sdk.fluencetype=fluence \
+    ro.vendor.audio.soundfx.type=mi \
+    ro.vendor.audio.soundfx.usb=true \
+    ro.vendor.audio.us.proximity=true \
+    vendor.audio.adm.buffering.ms=6 \
+    vendor.audio.feature.dynamic_ecns.enable=false \
+    vendor.audio.feature.spkr_prot.enable=false \
+    vendor.audio.hal.output.suspend.supported=false \
+    vendor.audio.offload.track.enable=false \
+    vendor.audio.tunnel.encode=false \
+    vendor.audio.use.sw.alac.decoder=true \
+    vendor.audio.use.sw.ape.decoder=true \
+    vendor.audio.use.sw.mpegh.decoder=true \
+    vendor.audio.volume.headset.gain.depcal=true \
+    vendor.voice.path.for.pcm.voip=true
 
 # Bluetooth
 PRODUCT_PACKAGES += \
@@ -46,6 +75,9 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.qcom.bluetooth.soc=cherokee
 
 # Camera
+PRODUCT_PROPERTY_OVERRIDES += \
+    camera.disable_zsl_mode=true
+
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.flash-autofocus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.flash-autofocus.xml \
     frameworks/native/data/etc/android.hardware.camera.front.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.front.xml \
@@ -64,6 +96,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     ro.charger.enable_suspend=1
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.hvdcp_opti.disallowed=1 \
+    persist.vendor.pps.disallowed=1 \
+    persist.vendor.quick.charge=1 \
+    persist.vendor.cp.fcc_main_ua=400000 \
+    persist.vendor.cp.taper_term_mv=7000 \
+    persist.vendor.cp.qc3p5_vfloat_offset_uv=110000 \
+
 # Config Store
 PRODUCT_PACKAGES += \
     disable_configstore
@@ -78,6 +118,14 @@ PRODUCT_PACKAGES += \
 
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
+
+# Display
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.vendor.display.sensortype=2 \
+    vendor.display.enable_async_powermode=1 \
+    vendor.display.qdcm.mode_combine=1 \
+    vendor.display.use_smooth_motion=0 \
+    vendor.display.enable_optimize_refresh=1
 
 # DPM
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -128,6 +176,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.crypto.allow_encrypt_override=true \
     ro.crypto.volume.filenames_mode="aes-256-cts" \
     ro.hardware.keystore_desede=true
+
+# Media
+PRODUCT_PROPERTY_OVERRIDES += \
+    mm.enable.smoothstreaming=true \
+    ro.media.recorder-max-base-layer-fps=60
 
 # Namespaces
 PRODUCT_SOONG_NAMESPACES += \
