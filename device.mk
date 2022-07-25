@@ -171,6 +171,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.incremental.enable=1
 
+# Init
+PRODUCT_PACKAGES += \
+    fstab.qcom \
+    init.picasso.rc \
+    init.mi.usb.sh \
+    init.qti.dcvs.sh \
+    init.target.rc \
+    init.xiaomi.rc \
+    ueventd.picasso.rc
+
 # Keymaster
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.crypto.allow_encrypt_override=true \
