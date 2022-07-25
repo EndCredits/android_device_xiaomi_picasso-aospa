@@ -205,6 +205,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
+    AOSPAPicassoFrameworksOverlay \
     FrameworksResTarget \
     PicassoFrameworksOverlay \
     WifiResTarget
