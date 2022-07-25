@@ -130,6 +130,15 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.use_smooth_motion=0 \
     vendor.display.enable_optimize_refresh=1
 
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.surface_flinger.use_content_detection_for_refresh_rate=true \
+    ro.surface_flinger.set_display_power_timer_ms=1000 \
+    ro.surface_flinger.set_idle_timer_ms=200 \
+    ro.surface_flinger.set_touch_timer_ms=200
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.display.idle_time=1100   
+
 # DPM
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.dpmhalservice.enable=1
@@ -212,6 +221,7 @@ PRODUCT_PACKAGES += \
     AOSPAPicassoFrameworksOverlay \
     FrameworksResTarget \
     PicassoFrameworksOverlay \
+    PicassoSettingsOverlay \
     PicassoSystemUIOverlay \
     WifiResTarget
 
