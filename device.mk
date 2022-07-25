@@ -223,6 +223,7 @@ PRODUCT_PACKAGES += \
     FrameworksResTarget \
     PicassoFrameworksOverlay \
     PicassoSettingsOverlay \
+    PicassoSettingsProviderOverlay \
     PicassoSystemUIOverlay \
     WifiResTarget
 
