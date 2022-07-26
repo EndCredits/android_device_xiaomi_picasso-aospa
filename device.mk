@@ -303,6 +303,9 @@ PRODUCT_PACKAGES += \
     android.hardware.secure_element@1.2.vendor \
     android.system.net.netd@1.1.vendor
 
+# Vendor
+$(call inherit-product, vendor/xiaomi/picasso/picasso-vendor.mk)
+
 # WLAN
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/wlan/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
