@@ -168,7 +168,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/fingerprint/uinput-goodix.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/uinput-goodix.idc \
     $(LOCAL_PATH)/configs/fingerprint/uinput-fpc.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/uinput-fpc.idc \
     frameworks/native/data/etc/android.hardware.fingerprint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.fingerprint.xml \
-    $(LOCAL_PATH)/keylayout/lito-lagoonqrd-snd-card_Button_Jack.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/lito-lagoonqrd-snd-card_Button_Jack.kl
+    $(LOCAL_PATH)/configs/fingerprint/lito-lagoonqrd-snd-card_Button_Jack.kl:$(TARGET_COPY_OUT_SYSTEM)/usr/keylayout/lito-lagoonqrd-snd-card_Button_Jack.kl
 
 # Firmware
 $(call inherit-product-if-exists, vendor/xiaomi/picasso-firmware/firmware.mk)
