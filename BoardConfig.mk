@@ -116,6 +116,9 @@ TARGET_COPY_OUT_VENDOR := vendor
 
 BOARD_EROFS_PCLUSTER_SIZE := 65536
 
+# Power
+TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
+
 # Recovery
 BOARD_INCLUDE_RECOVERY_DTBO := true
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/init/fstab.qcom
